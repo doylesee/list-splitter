@@ -1,0 +1,142 @@
+/*
+List Splitter JS
+By Doyle See / http://doylesee.com
+*/
+body {
+	background: #422e66;
+	color: #f7d5fd;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin: 0 0 100px 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4 {
+	color: #f7d5fd;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+}
+h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+h3 {
+	font-size: 28px;
+	line-height: 28px;
+}
+h4 {
+	font-size: 24px;
+	line-height: 24px;
+}
+p, ul {
+	margin: 0 0 10px 0;
+}
+a {
+	color: #d407fc;
+	text-decoration: none;
+}
+a:hover {
+	color: #7d0196;
+}
+pre {
+	background: #000;
+	border-radius: 6px;
+	margin: 0 0 40px 0;
+	padding: 2px 20px;
+}
+code {
+	background: #000;
+	border: medium none;
+	color: #00ff00;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+.max-width {
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+}
+.anchor-link {
+	display: block;
+	
+    position: relative;
+    top: -300px;
+    visibility: hidden;
+}
+
+.header {
+	background: #6e48b2;
+	margin: 0 0 40px 0;
+	padding: 25px 0;
+}
+#header-js.sticky {
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+.header__logo {
+	float: left;
+}
+.header__menu {
+	float: right;
+}
+.header__menu ul {
+	float: right;
+	margin: 0;
+}
+.header__menu ul li {
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+}
+.header__menu ul li a {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.download__buttons a {
+	background: #d407fc;
+	border-radius: 6px;
+	color: #f7d5fd;
+	display: inline-block;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 64px;
+	margin: 0 0 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 48%;
+}
+.download__buttons a:first-child {
+	margin: 0 3% 40px 0;
+}

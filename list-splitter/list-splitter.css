@@ -1,0 +1,12 @@
+/*
+List Splitter JS
+By Doyle See / http://doylesee.com
+*/
+.list-split__item {
+	float: left;
+	margin: 0 3% 3% 0;
+	width: 30%;
+}
+.list-split__item ul li {
+	list-style-position: inside;
+}
