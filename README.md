@@ -21,6 +21,4 @@ Initialize your list splitter
 
 Where <i>n</i> is the number of columns you want
 
-<pre><code>
-$('ul').listSplitter(n);
-</pre></code>
+<pre><code>$('ul').listSplitter(n);</pre></code>
