@@ -140,3 +140,10 @@ code {
 .download__buttons a:first-child {
 	margin: 0 3% 40px 0;
 }
+.footer {
+	border-top: 1px solid #f7d5fd;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
